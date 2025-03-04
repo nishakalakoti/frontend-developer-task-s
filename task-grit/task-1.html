@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 2px solid rgb(96, 96, 163);
+            display: grid; 
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px; 
+            padding: 10px 12px;
+        }
+
+        .div-1 {
+            background-color: skyblue;
+            padding: 10px 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div-1">one</div>
+        <div class="div-1">two</div>
+        <div class="div-1">three</div>
+        <div class="div-1">four</div> <!-- Added a fourth element to test the layout -->
+    </div>
+</body>
+</html>

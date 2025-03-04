@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            max-width: 600px;
+            min-width: auto;
+            grid-template-rows: repeat(3, 120px);
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 70px 70px 70px;
+
+        }
+
+        .grid-items {
+            border: 2px solid #5a635a;
+            background-color: #5a635a45;
+            border-radius: 5px;
+        }
+
+        .item-1 {
+            grid-column: 1/span 2;
+            grid-row: 1/span 2;
+
+        }
+
+        .item-2 {
+            grid-column: 2/span 2;
+            grid-row: 2/span 2;
+            border-color: black;
+            background-color: #aa3030;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class=" grid-items item-1">one</div>
+        <div class="grid-items item-2">two</div>
+    </div>
+</body>
+
+</html>
