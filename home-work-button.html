@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-button</title>
+    <style>
+        .box-parent {
+            height: 400px;
+            width: 400px;
+            position: relative;
+            border: 2px solid black;
+            background-color: teal;
+            top: 100px;
+            left: 100px;
+        }
+
+        .box {
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            transition: all 4s ease-in;
+        }
+
+        .box:hover {
+            transform: translateX(900px) rotate(360deg);
+            background-color: rgb(194, 121, 223);
+            color: white;  
+        }
+
+        .numbers {
+            display: flex;
+            gap: 10px; 
+            justify-content: flex-start;
+            transition: all 4s ease-in;
+        }
+
+        .num {
+            height: 30px;
+            width: 30px;
+            border: 2px solid black;
+            background-color: cornflowerblue;
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 4s ease-out;
+        }
+        .box:hover .numbers {
+                flex-direction: column; 
+            }
+
+    </style>
+</head>
+<body>
+  <div class="box-parent">
+    <div class="box">
+        <div class="numbers">
+            <div class="num one">1</div>
+            <div class="num two">2</div>
+            <div class="num three">3</div>
+            <div class="num four">4</div>
+        </div>
+    </div>
+  </div>  
+</body>
+</html>
