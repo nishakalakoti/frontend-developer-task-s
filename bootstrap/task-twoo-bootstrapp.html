@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>task-2</title>
+    <style>
+        @media (max-width: 576px) {
+            .container {
+                width: 80%;
+            }
+
+            .fsiz-1 {
+                font-size: 18px;
+            }
+        }
+
+        /* Media Query for Large Screens */
+        @media (min-width: 768px) {
+            .container {
+                width: 60%;
+            }
+
+            .fsiz-1 {
+                font-size: 25px;
+            }
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container text-center pb-2">
+            <h1 class="fw-bold">Create account</h1>
+            <p class="fw-medium  fs-3">Get started with your free account</p>
+        </div>
+
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="bg-info text-center py-2 mt-2 rounded">
+                    <a href="#" class="text-light fsiz-1  text-decoration-none"><i class="bi bi-twitter pe-1"></i> Login
+                        via twitter</a>
+                </div>
+                <div class=" bg-primary text-center py-2 mt-3 rounded">
+                    <a href="#" class="text-light fsiz-1  text-decoration-none"><i class="bi bi-facebook pe-2"></i>Login
+                        via facebook</a>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                    <hr class="flex-grow-1">
+                    <span class="mx-2 fw-bold">OR</span>
+                    <hr class="flex-grow-1">
+                </div>
+            </div>
+        </section>
+        <section class="mt-5">
+            <div class="container">
+                <div class="input-group mb-4 mb-lg-5 shadow-sm ">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-fill fs-5"></i></span>
+                    <input type="text" class=" form-control form-select-lg " placeholder="Full name"
+                        aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+
+                <div class="input-group mb-4 mb-lg-5 shadow-sm">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope-fill fs-5""></i></span>
+                    <input type=" email" class="form-control form-control-lg" placeholder="Email address"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+
+                <div class="input-group mb-4 mb-lg-5 shadow-sm">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-telephone-fill"></i></span>
+                    <input type="text" aria-label="Phone-number" placeholder="+971"
+                        class="form-control form-select-lg fw-bold" readonly  >
+                    <input type="num" aria-label="Phone-number" placeholder="Phone-number"
+                        class="form-control  form-select-lg">
+                </div>
+                <div class="input-group mb-4 mb-lg-5 shadow-sm">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-building fs-5"></i></span>
+                    <select class="form-select form-select-lg text-muted fw-bold" id="inputGroupSelect01">
+                        <option selected>Seclect job type</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+
+
+                <div class="input-group mb-4 mb-lg-5 shadow-sm">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-lock-fill fs-5"></i></span>
+                    <input type="password" class="form-control form-control-lg " placeholder="create password"
+                        aria-label="password">
+                </div>
+
+                <div class="input-group mb-4 mb-lg-5 shadow-sm">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-lock-fill fs-5"></i></span>
+                    <input type="password" class="form-control form-control-lg" placeholder="Repeat password"
+                        aria-label="password">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="bg-info  py-2 text-center rounded">
+                    <a href="#" class="text-light fsiz-1  text-decoration-none">Create Account</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="text-center my-3 fw-medium fs-3">
+                Have an account? <a href="#" class="text-decoration-none text-info">Log In</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
